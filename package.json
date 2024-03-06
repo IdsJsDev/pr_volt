@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://idsjsdev.github.io/pr_volt/",
   "engines": {
     "npm": "please-use-yarn",
     "yarn": ">= 1.22.0",
