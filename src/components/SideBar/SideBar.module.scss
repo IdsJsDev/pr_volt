@@ -1,0 +1,29 @@
+.sideBarWrapper{
+  height: 100%;
+  background-color: var(--main-blue);
+  width: 250px;
+  padding: 10px;
+  border-top: 1px solid var(--main-white);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-shrink: 0;
+  & .title{
+    color: var(--main-white);
+    cursor: pointer;
+  }
+  & .tag{
+    cursor: pointer;
+    &.active{
+      background: var(--main-blue);
+      color: var(--main-white);
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .sideBarWrapper{
+    height: auto;
+    width: 100%;
+  }
+}

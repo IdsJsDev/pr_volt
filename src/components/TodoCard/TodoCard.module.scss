@@ -1,0 +1,30 @@
+.cardWrapper{
+  display: flex;
+  width: 400px;
+  border: 1px solid var(--main-blue);
+  padding:10px 20px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content:space-between;
+  user-select: none;
+  box-shadow: 2px 2px 8px -1px rgba(0,0,0,0.75);
+  & .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    & .msg{
+
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    & .status{
+      font-size: 14px;
+    }
+  }
+  & .close{
+    cursor: pointer;
+    color: var(--main-red)
+
+  }
+}

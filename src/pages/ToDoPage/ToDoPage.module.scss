@@ -1,0 +1,18 @@
+.pageWrapper{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+  & .body{
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 720px) {
+  .pageWrapper{
+    & .body{
+      flex-direction: column;
+    }
+  }
+}
